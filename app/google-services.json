@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1041517402996",
+    "project_id": "erecycler-325af",
+    "storage_bucket": "erecycler-325af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041517402996:android:7ece5fafb3ace83867aa21",
+        "android_client_info": {
+          "package_name": "com.example.erecycler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJKLtBKfouoN7haC7feSai-x0v6VJXebA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
