@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/baseline_person_24"/>
+        <item
+            android:id="@+id/nav_money"
+            android:title="E-Points"
+            android:icon="@drawable/baseline_money_24"/>
+        <item
+            android:id="@+id/nav_faq"
+            android:title="FAQ"
+            android:icon="@drawable/baseline_question_answer_24"
+            />
+        <item
+            android:id="@+id/nav_devices"
+            android:title="Your All Devices"
+            android:icon="@drawable/baseline_devices_other_24"/>
+        <item
+            android:id="@+id/nav_refer"
+            android:title="Refer and Earn"
+            android:icon="@drawable/baseline_people_outline_24"/>
+
+
+    </group>
+
+
+</menu>
