@@ -14,6 +14,7 @@
         android:id="@+id/mapView"
         android:layout_width="286dp"
         android:layout_height="148dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -23,13 +24,13 @@
 
     <Spinner
         android:id="@+id/cityselect"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
+        android:layout_width="166dp"
+        android:layout_height="49dp"
         android:layout_marginTop="98dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mapView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.09" />
 </androidx.constraintlayout.widget.ConstraintLayout>

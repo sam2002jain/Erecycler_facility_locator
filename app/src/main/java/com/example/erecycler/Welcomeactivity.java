@@ -29,6 +29,7 @@ public class Welcomeactivity extends AppCompatActivity {
     }
 
     public void onbuttonsigninclicked(View view){
+        
         Intent intent = new Intent(Welcomeactivity.this, HomeActivity.class);
         startActivity(intent);
 

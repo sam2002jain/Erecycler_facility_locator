@@ -14,6 +14,7 @@
         android:background="@color/Green">
 
         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/white"
@@ -24,7 +25,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/fragment_layout"/>
+            android:id="@+id/fragment_container"/>
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
@@ -54,7 +55,8 @@
                 android:backgroundTint="@color/white"
                 android:src="@drawable/baseline_qr_code_scanner_24"
                 android:id="@+id/fab"
-                app:layout_anchor="@id/bottomappbar"
+                app:layout_anchor="@id/bottom_navigation"
+
                 app:maxImageSize="40dp"
                 android:tint="@color/Green"/>
 
